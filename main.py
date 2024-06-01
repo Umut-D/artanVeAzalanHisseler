@@ -2,7 +2,6 @@
 # pylint: disable=missing-function-docstring
 import datetime
 import locale
-
 import requests
 from bs4 import BeautifulSoup
 
