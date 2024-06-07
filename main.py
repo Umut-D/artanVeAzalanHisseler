@@ -50,7 +50,7 @@ def _verileri_indeksle(oran: float):
 
 def _bugun():
     mevcut_gun = datetime.date.today()
-    gun = ""
+    gun = mevcut_gun
 
     if mevcut_gun.weekday() == 5:
         gun = mevcut_gun - datetime.timedelta(days=1)
